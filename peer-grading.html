@@ -6,37 +6,46 @@
 <p>The output element represents the result of a calculation.</p>
 
 <form action="/action_page.php"
-oninput="x.value=parseInt(a1.value)+parseInt(a2.value)+parseInt(a3.value)">
+oninput="x.value=parseInt(a1.value)+parseInt(a2.value)+parseInt(a3.value)+parseInt(a4.value)">
 
-  Setup (12) : <br> 
-  <input type="number" size="2"  name="a1" value="0" min="0" max="3"> +
-  <input type="number" size="2"  name="a2" value="0"  min="0" max="3"> +
-  <input type="number" size="2"  name="a3" value="0"  min="0" max="3"> 
-  =
-  <output name="x" for="a1 a2 a3"></output>
+  <b> Setup (total 8) </b> : <br> 
+  WordPress 설치 <input type="number" size="2"  name="a1" value="0" min="0" max="2">  + <br>
+  StoreFront Theme 설치<input type="number" size="2"  name="a2" value="0"  min="0" max="2">  + <br>
+  woocommerce plugin  설치<input type="number" size="2"  name="a3" value="0"  min="0" max="2">  +  <br>
+ Homepage control plugin 설치<input type="number" size="2"  name="a4" value="0"  min="0" max="2"> 
+  =   <output name="x" for="a1 a2 a3 a4"> </output>
 </form>
 <hr>
 <form action="/action_page.php"
-oninput="x.value=parseInt(b1.value)+parseInt(b2.value)+parseInt(b3.value)">
+oninput="y.value=parseInt(b1.value)+parseInt(b2.value)+parseInt(b3.value)+parseInt(b4.value)+parseInt(b5.value)+parseInt(b6.value)+parseInt(b7.value)">
 
-  페이지 구성 (27) :  <br>
-  <input type="number" size="2"  name="b1" value="0" min="0" max="3"> +
-  <input type="number" size="2"  name="b2" value="0"  min="0" max="3"> +
-  <input type="number" size="2"  name="b3" value="0"  min="0" max="3"> 
+  <b> 페이지 구성 (total 28) :</b> :<br>
+  본인이름 상점이름 <input type="number" size="2"  name="b1" value="0" min="0" max="2"> + <br>
+  본인학번 Store tag 사용 <input type="number" size="2"  name="b2" value="0"  min="0" max="2"> +<br>
+  메뉴 완성도 [Home 1 / Products 1 (Deco/Cookware/Lamp) 1 / My account 1 (Cart/Checkout)1 / Contact Us 1 ]<input type="number" size="2"  name="b3" value="0"  min="0" max="6"> + <br>
+  "Home" page 설정(On Sale 2 / We Recommend 2 /Shop by Category 2 ) <input type="number" size="2"  name="b4" value="0"  min="0" max="6"> +<br>
+  Side bar 설정(Category / price filter) <input type="number" size="2"  name="b5" value="0"  min="0" max="4"> +<br>
+  "Contack us" page ( page 존재 2 / 주소 1 / 학교지도 삽입 3)  <input type="number" size="2"  name="b6" value="0"  min="0" max="5"> +<br>
+  Fill width templae (On Cart 1 / Check out 1 / Contack us 1) <input type="number" size="2"  name="b7" value="0"  min="0" max="3"> +<br>
   =
-  <output name="x" for="b1 b2 b3"></output>
+  <output name="y" for="b1 b2 b3 b4 b5 b6 b7"></output>
 </form>
 <hr>
 <form action="/action_page.php"
-oninput="x.value=parseInt(b1.value)+parseInt(b2.value)+parseInt(b3.value)">
+oninput="z.value=parseInt(c1.value)+parseInt(c2.value)+parseInt(c3.value)+parseInt(c4.value)">
 
   상품등록 (32) :  <br>
-  <input type="number" size="2"  name="b1" value="0" min="0" max="3"> +
-  <input type="number" size="2"  name="b2" value="0"  min="0" max="3"> +
-  <input type="number" size="2"  name="b3" value="0"  min="0" max="3"> 
+  모든 상품이름에 본인이름추가 (예: Theorem Polished Nickel Desk Lamp - Jun Ji)  <input type="number" size="2"  name="c1" value="0" min="0" max="2"> + <br>
+  Deco 상품 (2 variable products with 2 options)
+  <input type="number" size="2"  name="c2" value="0"  min="0" max="18"> + <br>
+  Cookware ( 2 단순 상품) 
+  <input type="number" size="2"  name="c3" value="0"  min="0" max="6">  + <br>
+  Lamp ( 2 단순 상품) 
+  <input type="number" size="2"  name="c4" value="0"  min="0" max="6"> 
   =
-  <output name="x" for="b1 b2 b3"></output>
+  <output name="z" for="c1 c2 c3 c4"></output>
 </form>
+
 
 </body>
 </html>
