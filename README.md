@@ -26,6 +26,3 @@ input Elements
 Input Types
 Input Attributes
 
-
-
-[1. Introduction](https://junji64.github.io/CSS/CSS%20Introduction.html)
